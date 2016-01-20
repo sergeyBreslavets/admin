@@ -1,0 +1,291 @@
+
+body {
+    background-color: #f3f3f3;
+}
+
+.navbar-custom {
+    min-height: 100px;
+    background-color: #b76647;
+    background: url("../images/back_nav.png") no-repeat;
+    color: #fff;
+    font-size: 14px;
+    .navbar-nav {
+        margin-top: 10px;
+        > li > a {
+            text-transform: uppercase;
+            background-color: transparent;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            font-style: normal;
+            color: #fff;
+            border-bottom: 2px solid transparent;
+            &:hover,
+            &:focus {
+                background-color: #22140e;
+                border-bottom: 2px solid #dd3f19;
+            }
+        }
+    }
+}
+
+.module--wrapper {
+    //  padding-top: 100px;
+    // background-color: #653322;
+    hr {
+        background-color: #fff;
+    }
+}
+
+.module--present {
+    background: url("../images/back_header.jpg") no-repeat;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    .bs-example {
+        .content_item {
+            font-family: "Myriad Pro Light";
+            font-style: normal;
+            font-weight: normal;
+            text-align: center;
+            span {
+                font-size: 24px;
+                text-transform: uppercase;
+                color: #fff;
+                &:first-child {
+                    font-size: 24px;
+                }
+                &:last-child {
+                    margin-bottom: 50px;
+                }
+            }
+            h1 {
+                text-transform: uppercase;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 100px;
+                color: #fff;
+            }
+            p {
+                font-size: 24px;
+                color: #fff;
+                margin-bottom: 250px;
+            }
+            .carousel-indicators {
+                padding-top: 50px;
+            }
+        }
+    }
+}
+
+.module--about {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    img {
+        border-radius: 5px;
+    }
+    h3 {
+        margin-top: 30px;
+        font-size: 25px;
+        color: #333333;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    p {
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+        margin-top: 20px;
+        font-size: 12px;
+        color: #666666;
+    }
+}
+
+.module--design {
+    .container {
+        border-top: 1px solid #e5e5e5;
+    }
+    padding-bottom: 90px;
+    background: #fff;
+    text-align: center;
+    h2 {
+        padding-top: 90px;
+        font-size: 48px;
+        color: #333333;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    p {
+        color: #000000;
+        font-size: 16px;
+        margin-bottom: 45px;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    h4 {
+        margin-top: 15px;
+        font-size: #333333;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    a {
+        padding-top: 10px;
+        color: #adadad;
+        text-decoration: none;
+        &:hover {
+            color: #dd3f19;
+        }
+        i {
+            padding-right: 2px;
+        }
+    }
+}
+
+.module--lates_blog {
+    background: #fff;
+    .container {
+        border-top: 1px solid #e5e5e5;
+    }
+    padding-bottom: 90px;
+    text-align:center;
+    h2 {
+        margin-bottom: 40px;
+        padding-top: 90px;
+        font-size: 42px;
+        color: #333333;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    a {
+        margin-top: 30px;
+        font-size: 18px;
+        color: #333333;
+        text-decoration: none;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+        &:hover {
+            color: #dd3f19;
+        }
+    }
+    .module--lates_blog__data {
+        border-bottom: 1px solid #e5e5e5;
+        border-top: 1px solid #e5e5e5;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    .module--lates_blog_about {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #e5e5e5;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    span {
+        font-size: 11px;
+        color: #adadad;
+    }
+    p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #555555;
+        font-size: 12px;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+}
+
+.module--footer {
+    background: url("../images/back_foter.jpg") no-repeat;
+    text-align: center;
+    padding-top: 65px;
+    // padding-bottom: 50px;
+    p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 12px;
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+    }
+    ul {
+        font-family: "Myriad Pro Light";
+        font-style: normal;
+        font-weight: normal;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-bottom: 50px;
+        border: 1px solid #524c52;
+        border-radius: 5px;
+        padding-left: 0px;
+        li {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+            display: inline;
+            a {
+                color: #fff;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.module--footer_small {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+    background: url("../images/back_smal_fotter.jpg") no-repeat;
+    text-align: center;
+    color: #fff;
+    font-family: "Myriad Pro Light";
+    font-style: normal;
+    font-weight: normal;
+    .module--footer_small__copyright {
+        font-size: 12px;
+    }
+    a {
+        padding-left: 20px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #fff;
+    }
+}
+
+.module_test {
+    .item_my {
+        position: relative;
+        .blocback {
+            position: absolute;
+            z-index: 1;
+            background: green;
+            width: 200px;
+            height: 200px;
+        }
+        .bloctop {
+            position: absolute;
+            z-index: 2;
+            background: red;
+            width: 200px;
+            height: 200px;
+            &:hover,
+            &:focus { 
+                 .blocback {
+                   z-index: 3; 
+                 }
+                z-index: 0;
+            }
+        }
+    }
+}
